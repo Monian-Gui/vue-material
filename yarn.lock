@@ -4706,6 +4706,11 @@ gitconfiglocal@^1.0.0:
   dependencies:
     ini "^1.3.2"
 
+github-buttons@^2.8.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.19.0.tgz#8eb966fec288038b47cfe1f931355f50c0e10811"
+  integrity sha512-N483U9QbYIS0lZKLxye2XXMHZ4ISJ9OcYJd1ChtJxYsF475xeKF2zC2Ko51SCiQmi0RnLvk25ocJDq+hOpZLfw==
+
 github-release-cli@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/github-release-cli/-/github-release-cli-0.3.0.tgz#fcd8df4db3e41a76925e0b2842b456598e302e0a"
@@ -7655,6 +7660,11 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+opencollective-postinstall@^2.0.2:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
+  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
+
 opencollective@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/opencollective/-/opencollective-1.0.3.tgz#aee6372bc28144583690c3ca8daecfc120dd0ef1"
@@ -10159,9 +10169,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
@@ -10660,6 +10670,13 @@ vue-ga@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vue-ga/-/vue-ga-1.1.0.tgz#366fea37afb953b5b115e56feb1005cc6bd1e20e"
   integrity sha512-cnwIW75CwsqGZP62dFZt7e4/k9vhKsos3pJBBKkREXJ4bk2ePVgJiOeynhjvAtvyRzEmfsASfYMwzt0Dra/cng==
+
+vue-github-button@^1.2.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/vue-github-button/-/vue-github-button-1.3.0.tgz#a4da317a3b93d05824768b3916a0d22fa91603be"
+  integrity sha512-Cc92t+GBLwBPhwtHSvKXjbx07U3+6xdi+eR+s9c734tHbndipCLenJjLVkgErNhKZ0EvDjRyuu8Hu69gg9/TxQ==
+  dependencies:
+    github-buttons "^2.8.0"
 
 vue-github-buttons@^3.1.0:
   version "3.1.0"
